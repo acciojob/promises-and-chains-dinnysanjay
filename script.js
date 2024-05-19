@@ -7,7 +7,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
   // Check if inputs are empty
   if (name === '' || age === '') {
-    alert("Please fill out all fields.");
+    alert("Please enter valid details");
     return;
   }
 
